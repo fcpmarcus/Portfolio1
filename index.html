@@ -2,24 +2,50 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- display character set -->
+    <meta charset="utf-8">
+    <!-- set mobile responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
   	<link rel="stylesheet" href="css/bootstrap.min.css">
   	<link rel="stylesheet" type="text/css" href="css/main.css">
+  	<!-- Latest compiled and minified JavaScript -->
   	<title>Portfolio</title>
   </head>
   <body>
-	  <div class="container">
+  	<!-- Navigation Bar - Static top -->
+  	<nav class="navbar navbar-default navbar-static-top">
+		<div class="container">
+		    <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Link</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		          </ul>
+		        </li>
+		    </ul>
+		</div>
+	</nav>
+	<div class="container">
+	  	<!-- title -->
 	  	<div class="row">
-	      <div class="col-md-2"><img src="http://placehold.it/100x100" alt="placeholderProfile"></div>
+	      <div class="col-md-2 profile-pic"><img src="http://placehold.it/100x100" alt="placeholderProfile"></div>
 	      <div class="col-md-4"></div>
 	      <div class="col-md-6 text-right">
 	        <h1 class="text-uppercase">M a r c • C r u z</h1>
 	        <h2 class="text-uppercase">Front-end Developer</h2>
 	      </div>
 	    </div>
+	    <!-- Landing Picture -->
 	    <div class="row">
 	      <img src="http://placehold.it/1155x350" class="img-responsive" alt="placeholder1">
 	    </div>
+	    <!-- Featured Work. Display projects -->
 	    <div class="row">
 	      <h2 class="text-uppercase">Featured Work</h2>
 	    </div>
@@ -51,6 +77,10 @@
 	        <p>Lucas ipsum dolor sit amet salacious ackbar ithorian togorian mirta jan qui-gon freedon hypori yoda. Mustafar dooku kal sidious melodie kathol cassio tython. Amidala aparo danni shawda luke padmé dat rieekan hutta. Roonan gunray allana briqualon. Phlog -1b abyssin zuggs. Senex sanyassan rakata artaru. Falleen jawa kor-uj tapani jagged bertroff vader haako. Darth alderaan bothan watto. Naberrie vestara brak zannah wuher tono dantari priapulin. Derlin tono darth omas lumiya koon. Lando lorth chazrach sy felth.</p>
 	      </div>
 	    </div>
-	  </div>
+	</div>
+	<!-- jQuery -->
+	<script src="js/jquery-1.12.0.min.js"></script>
+	<!-- Bootstrap JS plugins -->
+	<script src="js/bootstrap.min.js"></script>
   </body>
 </html>

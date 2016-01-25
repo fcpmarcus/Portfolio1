@@ -4,18 +4,19 @@
 body {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
-	background-color: #FBF18E; /*#DC1515*/
+	background-color: #FFF; /*#DC1515*/
 /*	color: white;*/
-}
-	
+}	
 .row h1 {
 	font-weight: 700;
 }
-
 .row h2 {
 	font-weight: 300;
 }
 .row h3 {
 	font-weight: 400;
 /*	font-style: italic;*/
+}
+.profile-pic {
+	padding-top: 10px;
 }
