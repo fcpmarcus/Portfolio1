@@ -17,7 +17,7 @@
   <body>
   	<!-- Navigation Bar - Static top -->
   	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mc-navbar-collapse" aria-expanded="false">
 		        <span class="sr-only">Toggle navigation</span>
@@ -34,7 +34,7 @@
 			        <li><a href="#">CONTACT</a></li>
 			    </ul>
 		    </div> <!-- .navbar-collapse -->
-		</div> <!-- container -->
+		</div> <!-- container-fluid -->
 	</nav>
 	<div class="container">
 	  	<!-- title -->
@@ -83,6 +83,17 @@
 	      </div>
 	    </div>
 	</div>
+	<!-- fade in navbar -->
+	<script type="text/javascript">
+		window.addEventListener("scroll", function() {
+	    if (window.scrollY > 150) {
+	        $('.navbar').fadeOut();
+	    }
+	    else {
+	        $('.navbar').fadeIn();
+	    }
+		},false);
+	</script>
 	<!-- jQuery -->
 	<script src="js/jquery-1.12.0.min.js"></script>
 	<!-- Bootstrap JS plugins -->
