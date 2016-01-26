@@ -2,11 +2,20 @@
 	border: 1px solid black !important;
 }*/
 body {
+	background-color: #FFF; /*#FBF18E*/
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
-	background-color: #FFF; /*#FBF18E*/ 
-/*	color: white;*/
-}	
+	padding-top: 50px;
+}
+/*.navbar {
+	background-color: #FBF18E;
+	border-bottom: 1px solid #777;
+}
+.navbar-toggle {
+	background-color: #fff;
+	border: 1px solid #777;
+}*/
+
 .row h1 {
 	font-weight: 700;
 }
