@@ -21,74 +21,96 @@
   <body>
   	<!-- Navigation Bar - Static top -->
   	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mc-navbar-collapse" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand brand-mc" href="#">M • C</a>
-		    </div><!-- navbar header -->
-		    <div class="collapse navbar-collapse" id="mc-navbar-collapse">
-			    <ul class="nav navbar-nav navbar-right">
-			        <li><a href="#">ABOUT</a></li>		
-			        <li><a href="#">BLOG</a></li>
-			        <li><a href="#">CONTACT</a></li>
-			    </ul>
-		    </div> <!-- .navbar-collapse -->
-		</div> <!-- container-fluid -->
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mc-navbar-collapse" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+		  <a class="navbar-brand brand-mc" href="#">M • C</a>
+		</div><!-- navbar header -->
+		<div class="collapse navbar-collapse" id="mc-navbar-collapse">
+		  <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">ABOUT</a></li>		
+	        <li><a href="#">BLOG</a></li>
+	        <li><a href="#">CONTACT</a></li>
+	      </ul>
+		</div> <!-- .navbar-collapse -->
+	  </div> <!-- container-fluid -->
 	</nav>
 	<div class="container">
-	  	<!-- title -->
-	  	<div class="row">
+	  <!-- title -->
+	  <div class="row">
 	      <div class="col-md-2 profile-pic"><img src="http://placehold.it/100x100" alt="placeholderProfile"></div>
 	      <div class="col-md-4"></div>
 	      <div class="col-md-6 text-right">
 	        <h1 class="text-uppercase">M a r c • C r u z</h1>
 	        <h2 class="text-uppercase">Front-end Developer</h2>
 	      </div>
+	  </div>
+	  <!-- Landing Picture -->
+	  <div class="row">
+	    <img src="http://placehold.it/1155x350" class="img-responsive" alt="placeholder1">
+	  </div>
+	  <!-- Featured Work. Display projects -->
+	  <div class="row">
+	    <h2 class="text-uppercase">Featured Work</h2>
+	  </div>
+	  
+	  <!--  First grouped row -->
+	  <div class="row text-center">
+	    <!-- Project 1 -->
+	    <div class="col-md-6">
+	      <img src="http://placehold.it/555x300" class="img-responsive" alt="placeholder2" data-toggle="modal" data-target="#project1">
+	      <h3>Project 1</h3>
+	      <!-- Projcet 1 Modal -->
+		  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1Label">
+	        <div class="modal-dialog" role="document">
+	          <div class="modal-content">
+                <div class="modal-header">
+          		  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          		  <h4 class="modal-title text-center" id="project1lLabel">Project 1</h4>
+        		</div>
+		        <div class="modal-body">
+		      	  <a href="http://github.com"><img class="img-responsive" src="http://placehold.it/555x300" alt="placeholder2"></a>
+				    Lucas ipsum dolor sit amet salacious ackbar ithorian togorian mirta jan qui-gon freedon hypori yoda. Mustafar dooku kal sidious melodie kathol cassio tython. Amidala aparo danni shawda luke padmé dat rieekan hutta. Roonan gunray allana briqualon. Phlog -1b abyssin zuggs. Senex sanyassan rakata artaru. Falleen jawa kor-uj tapani jagged bertroff vader haako. Darth alderaan bothan watto. Naberrie vestara brak zannah wuher tono dantari priapulin. Derlin tono darth omas lumiya koon. Lando lorth chazrach sy felth.
+		        </div>
+		        <div class="modal-footer">
+		          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        </div>
+	          </div>
+	  		</div>
+		  </div>        
 	    </div>
-	    <!-- Landing Picture -->
-	    <div class="row">
-	      <img src="http://placehold.it/1155x350" class="img-responsive" alt="placeholder1">
-	    </div>
-	    <!-- Featured Work. Display projects -->
-	    <div class="row">
-	      <h2 class="text-uppercase">Featured Work</h2>
-	    </div>
-	    <div class="row text-center">
-	      <div class="col-md-6">
-	        <img src="http://placehold.it/555x300" class="img-responsive" alt="placeholder2" data-toggle="modal" data-target="#project1">
-	        <h3>Project 1</h3>
-	        <!-- Modal: Project 1 -->
-			<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-			  <div class="modal-dialog" role="document">
-			    <div class="modal-content">
-			      <div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			        <h4 class="modal-title text-center" id="myModalLabel">Project 1</h4>
-			      </div>
-			      <div class="modal-body">
-			      	<a href="http://github.com"><img class="img-responsive" src="http://placehold.it/555x300"></a>
-				      Lucas ipsum dolor sit amet salacious ackbar ithorian togorian mirta jan qui-gon freedon hypori yoda. Mustafar dooku kal sidious melodie kathol cassio tython. Amidala aparo danni shawda luke padmé dat rieekan hutta. Roonan gunray allana briqualon. Phlog -1b abyssin zuggs. Senex sanyassan rakata artaru. Falleen jawa kor-uj tapani jagged bertroff vader haako. Darth alderaan bothan watto. Naberrie vestara brak zannah wuher tono dantari priapulin. Derlin tono darth omas lumiya koon. Lando lorth chazrach sy felth.
-			      </div>
-			      <div class="modal-footer">
-			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			      </div>
-			    </div>
-			  </div>
-			</div>        
-	      </div>
-	      <div class="col-md-6">
-	        <img src="http://placehold.it/555x300" class="img-responsive" alt="placeholder3">
-	        <h3>Project 2</h3>
-	        <p><a href="http://github.com">Link to project</a></p>
-	        <p>Lucas ipsum dolor sit amet salacious ackbar ithorian togorian mirta jan qui-gon freedon hypori yoda. Mustafar dooku kal sidious melodie kathol cassio tython. Amidala aparo danni shawda luke padmé dat rieekan hutta. Roonan gunray allana briqualon. Phlog -1b abyssin zuggs. Senex sanyassan rakata artaru. Falleen jawa kor-uj tapani jagged bertroff vader haako. Darth alderaan bothan watto. Naberrie vestara brak zannah wuher tono dantari priapulin. Derlin tono darth omas lumiya koon. Lando lorth chazrach sy felth.</p>
-	      </div>
-	    </div>
-	    <div class="row text-center">
+	    <!-- Project 1 end -->
+	    <!-- Project 2 -->
+	    <div class="col-md-6">
+	      <img src="http://placehold.it/555x300" class="img-responsive" alt="placeholder3" data-toggle="modal" data-target="#project2">
+	      <h3>Project 2</h3>
+	      <!-- Project 2 Modal -->
+		  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2Label">
+	        <div class="modal-dialog" role="document">
+	          <div class="modal-content">
+                <div class="modal-header">
+          		  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          		  <h4 class="modal-title text-center" id="project2Label">Project 2</h4>
+        		</div>
+		        <div class="modal-body">
+		      	  <a href="http://github.com"><img class="img-responsive" src="http://placehold.it/555x300" alt="placeholder3"></a>
+				    Lucas ipsum dolor sit amet salacious ackbar ithorian togorian mirta jan qui-gon freedon hypori yoda. Mustafar dooku kal sidious melodie kathol cassio tython. Amidala aparo danni shawda luke padmé dat rieekan hutta. Roonan gunray allana briqualon. Phlog -1b abyssin zuggs. Senex sanyassan rakata artaru. Falleen jawa kor-uj tapani jagged bertroff vader haako. Darth alderaan bothan watto. Naberrie vestara brak zannah wuher tono dantari priapulin. Derlin tono darth omas lumiya koon. Lando lorth chazrach sy felth.
+		        </div>
+		        <div class="modal-footer">
+		          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        </div>
+		      </div>
+	        </div>
+	  	  </div>
+		</div>
+		<!-- Project 2 end -->
+	  </div><!-- First grouped row: end -->
+      <div class="row text-center">
 	      <div class="col-md-6">
 	        <img src="http://placehold.it/555x300" class="img-responsive" alt="placeholder4">
 	        <h3>Project 3</h3>
@@ -101,7 +123,7 @@
 	        <p><a href="http://github.com">Link to project</a></p>
 	        <p>Lucas ipsum dolor sit amet salacious ackbar ithorian togorian mirta jan qui-gon freedon hypori yoda. Mustafar dooku kal sidious melodie kathol cassio tython. Amidala aparo danni shawda luke padmé dat rieekan hutta. Roonan gunray allana briqualon. Phlog -1b abyssin zuggs. Senex sanyassan rakata artaru. Falleen jawa kor-uj tapani jagged bertroff vader haako. Darth alderaan bothan watto. Naberrie vestara brak zannah wuher tono dantari priapulin. Derlin tono darth omas lumiya koon. Lando lorth chazrach sy felth.</p>
 	      </div>
-	    </div>
+      </div>
 	</div>
 	
 	<!-- <script type="text/javascript">
@@ -115,7 +137,7 @@
 		},false);
 	</script> -->
 	
-	<!-- fade in navbar -->
+	<!-- JS: fade in navbar -->
 	<script type="text/javascript">
 		$('#myModal').on('shown.bs.modal', function () {
 		  $('#myInput').focus()
