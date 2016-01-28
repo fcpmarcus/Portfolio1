@@ -12,6 +12,7 @@ body {
 	background-color: #FBF18E;
 	border-bottom: none;
 }
+
 /*.navbar-toggle {
 	background-color: #fff;
 	border: 1px solid #777;
@@ -56,7 +57,9 @@ img {
 	-webkit-box-shadow: 0 0 2px #000; 
 	box-shadow: 0 0 2px #000;
 }
-
+.row ul {
+	padding-left: 0;
+}
 .social-icons {
   padding: 15px;
   color: #4E4E4E;
