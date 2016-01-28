@@ -16,7 +16,9 @@ body {
 	background-color: #fff;
 	border: 1px solid #777;
 }*/
-
+/*.landing-pic {
+	padding-bottom: 10px;
+}*/
 .row h1 {
 	font-weight: 700;
 	text-shadow: 2px 1px 0px #fff, 4px 4px 0px rgba(0,0,0,0.15);
@@ -54,6 +56,16 @@ img {
 	-webkit-box-shadow: 0 0 2px #000; 
 	box-shadow: 0 0 2px #000;
 }
+
+.social-icons {
+  padding: 15px;
+  color: #4E4E4E;
+}
+
+.social-icons:hover {
+	transform: translateY(-10px);
+}
+
 /*.navbar-fixed-top.navbarColorChange{ 
 	background-color: rgba(251,241,142,0.9);
 	transition: background-color 0.1s ease 0s;
