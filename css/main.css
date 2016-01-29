@@ -2,13 +2,13 @@
 	border: 1px solid black !important;
 }*/
 body {
-	background-color: #FFF; /*#FBF18E*/
+	background-color: #FBF18E; /*#FFF*/
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
 	padding: 60px 0 60px 0;
 }
 
-.navbar {
+.navbar-default {
 	background-color: #FBF18E;
 	border-bottom: none;
 }
